@@ -1,0 +1,42 @@
+.content-title {
+  position: absolute;
+  width: 476px;
+  height: 32px;
+  left: 32px;
+  top: 104px;
+  font-family: Arial;
+  font-size: 28px;
+  line-height: 40px;
+  color: #09112e;
+  font-weight: 600;
+}
+.tabs {
+  position: absolute;
+  width: 1044px;
+  height: 28px;
+  left: 32px;
+  top: 160px;
+}
+.nav-tabs .nav-link.active {
+  background-color: transparent !important;
+  color: #09112e !important;
+  border-color: transparent transparent #2345c7 transparent !important;
+  font-weight: 600;
+}
+.nav-tabs .nav-link {
+  font-family: Arial;
+  font-size: 16px;
+  color: #9295a0 !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #b5b8c0 !important;
+}
+
+.nav-link {
+  padding: 0rem 2rem 0.2rem 0rem !important;
+}
+.nav-tabs .nav-link:hover {
+  border-color: transparent !important;
+}

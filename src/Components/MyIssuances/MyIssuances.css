@@ -1,0 +1,128 @@
+.myissuances-block {
+  /* position: absolute; */
+  width: 1044px;
+  height: 335px;
+  left: 32px;
+  top: 212px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.add-issuance {
+  width: 156px;
+  height: 32px;
+  margin-left: 44px;
+}
+.filters-issuance {
+  width: 98px;
+  height: 32px;
+  margin-left: 22px;
+}
+.add-issuance,
+.filters-issuance {
+  background: none !important;
+  border: none !important;
+  color: #2345c7;
+  font-family: Arial;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.la-align-left {
+  content: "&#xf036";
+  color: black;
+}
+
+.fa-plus {
+  width: 24px;
+  height: 24px;
+  left: 8px;
+  top: 4px;
+}
+
+.fa-align-left {
+  width: 24px;
+  height: 24px;
+  left: 8px;
+  top: 4px;
+}
+.table th,
+.table td {
+  border-top: none !important;
+}
+.table td {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 16px;
+  color: #09112e;
+}
+.table td p {
+  color: #b5b8c0;
+  padding-top: 3px;
+}
+.table {
+  width: 97% !important;
+  margin: auto !important;
+}
+thead {
+  background: #fafafb;
+}
+.table thead th {
+  border-bottom: none !important;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
+  color: #09112e;
+  cursor: pointer;
+}
+.table thead th:hover {
+  color: #9295a0 !important;
+}
+
+.table-responsive {
+  margin-top: 12px;
+}
+.industry {
+  width: 28%;
+}
+.font-size-12 {
+  font-size: 12px !important;
+}
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  right: 10%;
+  margin-top: 3px;
+}
+.green {
+  background: #20ba82;
+}
+.blue {
+  background: #2345c7;
+}
+
+#dropdownMenuButton,
+#dropdownLocationButton,
+#dropdownAmountButton,
+#dropdownValuationButton,
+#dropdownTargetButton,
+#dropdownTypeButton {
+  font-family: Arial;
+  font-size: 14px;
+  color: #09112e !important;
+  font-weight: 600;
+}
+#dropdownMenuButton:hover,
+#dropdownLocationButton:hover,
+#dropdownAmountButton:hover,
+#dropdownValuationButton:hover,
+#dropdownTargetButton:hover,
+#dropdownTypeButton:hover {
+  color: #9295a0 !important;
+}
+.dropdown-menu {
+  right: 0px !important;
+  left: auto !important;
+}

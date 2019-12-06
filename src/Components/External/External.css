@@ -1,0 +1,48 @@
+.external-details {
+  width: 1044px;
+  height: 296px;
+  left: 32px;
+  top: 212px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.star {
+  font-size: 20px !important;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.fa-star-o {
+  color: #b5b8c0 !important;
+}
+.fa-star {
+  color: #2345c7 !important;
+}
+.items {
+  cursor: pointer;
+}
+.items:hover {
+  background: #fafafb !important;
+}
+.hoverColor {
+  color: #9295a0 !important;
+}
+
+.modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0 !important;
+  z-index: 1050;
+  display: none;
+  width: 100% !important;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+}
+.modal-content {
+  height: 100%;
+  width: 40% !important;
+  float: right;
+  overflow-y: scroll;
+}
